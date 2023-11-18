@@ -4,3 +4,9 @@
 
 ## 🎓Overview
 In an era driven by technology and a growing emphasis on an active lifestyle, SportyConnect emerges as a revolutionary platform at the intersection of sports, community, and convenience. Our website has been meticulously crafted to address the needs of sports academy owners and enthusiasts alike, creating an online ecosystem where sports enthusiasts can seamlessly connect, discover, and participate in sporting activities.
+
+## 👨‍💻 Tech Stack
+React.js<br></br>
+Node.js<br></br>
+Express.js<br></br>
+MongoDB<br></br>
