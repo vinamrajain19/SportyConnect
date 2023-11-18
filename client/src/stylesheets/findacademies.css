@@ -1,0 +1,109 @@
+.find-academies-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #3498db; /* Border color */
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #2980b9; /* Highlight border color on focus */
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 12px !important;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Add fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.find-academies-page {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.results-container {
+  display: flex;
+  margin-top: 45px !important;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: flex-start; /* Align items to start from left */
+}
+
+.results-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.result-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 10px;
+}
+
+.result-item {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  margin: 10px 20px;
+}
+
+.result-item:hover {
+  transform: scale(1.05);
+}
+
+.additional-details {
+  margin-top: 15px;
+}

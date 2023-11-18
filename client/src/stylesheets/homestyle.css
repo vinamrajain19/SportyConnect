@@ -1,0 +1,61 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8; /* Set your desired background color */
+}
+
+.Home {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Home-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.section {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.academy-section {
+  background-color: #b3e0f2;
+}
+
+.peer-section {
+  background-color: #b3ffb3;
+}
+
+/* Add some additional styling for a better UI */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin-bottom: 10px;
+}

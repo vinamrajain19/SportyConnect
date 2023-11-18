@@ -1,0 +1,63 @@
+.academy-registration-container {
+  max-width: 400px;
+  width: 170%;
+  margin: 50px auto; /* Updated margin-top value */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.8s ease-in-out;
+  margin-top: 20px; /* Added margin-top value */
+}
+
+label {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 93% !important;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+.academybutton {
+  background-color: #27ae60;
+  color: black;
+  padding: 10px;
+  width: 93%;
+  margin-left: 2px !important;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.academybutton:hover {
+  background-color: white;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
